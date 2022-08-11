@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Wish List" max_length="40" name="x_855091_wish_list_wish_list" type="collection">
+        <element attributes="encode_utf8=false" label="Requester" max_length="32" name="requester" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="requester"/>
+        </index>
+    </element>
+</database>
